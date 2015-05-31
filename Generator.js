@@ -10,3 +10,7 @@ function getOne() {
     var i = Math.floor(Math.random() * names.length);
     window.alert(names[i]);
 }
+function removeAll() {
+    "use strict";
+    names = [];
+}
