@@ -4,6 +4,7 @@ function addName() {
     var n = document.getElementById("userText").value;
     document.getElementById("userText").value = "";
     names.push(n);
+    document.getElementById("names").innerHTML = names.toString();
 }
 function getOne() {
     "use strict";
@@ -13,4 +14,5 @@ function getOne() {
 function removeAll() {
     "use strict";
     names = [];
+    document.getElementById("names").innerHTML = "";
 }
