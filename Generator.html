@@ -15,11 +15,20 @@
         Type the things you want to be picked from below, and click "Generate" to randomly select           one.
     </h3>
     <form>
-        Add things here:<br>
+        Type things to be added here. The click "Add":<br>
         <input type="text" id= "userText" name="addThings">
     </form>
     <input type="button" onclick="addName()" value="Add">
     <input type="button" onclick="getOne()" value="Generate">
     <input type="button" onclick="removeAll()" value="Reset">
+    <p>
+        Your list:
+    </p>
+    <div id="names">
+        You haven't added anything yet! Input some stuff to be randomly chosen.
+    </div>
+    <br>
+    <div id="result">
+    </div>
 </body>
 </html>

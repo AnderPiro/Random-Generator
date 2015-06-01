@@ -9,10 +9,11 @@ function addName() {
 function getOne() {
     "use strict";
     var i = Math.floor(Math.random() * names.length);
-    window.alert(names[i]);
+    document.getElementById("result").innerHTML = "The random generator chose: " + names[i];
 }
 function removeAll() {
     "use strict";
     names = [];
-    document.getElementById("names").innerHTML = "";
+    document.getElementById("names").innerHTML = "You haven't added anything yet! Input some stuff to be randomly chosen.";
+    document.getElementById("result").innerHTML = "";
 }

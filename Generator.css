@@ -1,4 +1,8 @@
 body {
+    border-top-width: 2000px;
     text-align: center;
+    font-family: lucida console;
+    background-color: #000000;
+    color: #00ff00;
     
 }
